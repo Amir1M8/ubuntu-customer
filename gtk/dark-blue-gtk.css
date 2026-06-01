@@ -1,0 +1,50 @@
+/* decoration {
+    border: 1px solid gray;
+} */
+
+VteTerminal, TerminalScreen, vte-terminal {
+     padding: 10px 10px 10px 10px;
+}
+
+terminal-window .titlebar {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    min-height: 5px;
+}
+
+/* terminal-window .titlebar button {
+    color:#fff;
+}
+
+terminal-window .titlebar button:not(.maximize):not(.close) {
+    background: #fdbb2e;
+}
+
+terminal-window .titlebar button:not(.minimize):not(.maximize) {
+    background: #fe5b57;
+}
+
+terminal-window .titlebar button:not(.close):not(.minimize) {
+    background: #2fcf48;
+} */
+
+terminal-window .titlebar button:not(.close):not(.minimize):not(.maximize) {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+
+terminal-window .titlebar,
+terminal-window .titlebar .header-bar {
+    background: #2e3440;
+    /* background: #26263a; */
+    /* background: #2e8b57; */
+}
+
+terminal-window .titlebar .title {
+    font-size: 12px;
+}
+/* terminal green background #0E1917 */

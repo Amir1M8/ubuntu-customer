@@ -1,0 +1,8 @@
+#1C1C22 - nice terminal background
+#151520 - background
+#182e42 - darkblue
+#264055 - dark and ligth blue
+#5d7778 - small dark snow
+#586E75 - dark snow
+#4e646b - nice dark snow
+#324242 - dark green
